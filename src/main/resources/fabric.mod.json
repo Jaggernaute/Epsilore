@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "epsilore",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Epsilore",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Jaggernaute"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "Discord": "Jaggi <3#3621",
+    "sources": "https://github.com/Jaggernaute/Epsilore"
   },
 
-  "license": "CC0-1.0",
+  "license": "GPL-3.0",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.jaggernaute.epsilore.Epsilore"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "epsilore.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.11",
+    "fabricloader": ">=0.14.6",
     "fabric-api": "*",
-    "minecraft": "~1.19.3",
+    "minecraft": "~1.18.2",
     "java": ">=17"
   },
   "suggests": {
